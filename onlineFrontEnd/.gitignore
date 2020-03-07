@@ -8,8 +8,6 @@
 # dependencies
 /node_modules
 
-/onlineFrontEnd/node_modules
-
 # IDEs and editors
 /.idea
 .project
@@ -39,7 +37,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-
-# SQL 
-
-.vs/OnLineSparess/v15/Server/sqlite3/db.lock
