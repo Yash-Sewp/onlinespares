@@ -26,4 +26,8 @@ export class EntryService {
 		return this.http.put(this.baseUrl + '/api/entries/' + id, entry);
 	}
 
+	deleteEntry(id) {
+		return this.http.delete(this.baseUrl + '/api/entries/' + id);
+	}
+
 }
