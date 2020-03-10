@@ -89,3 +89,12 @@ C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Debug\O
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\System.Web.Cors.dll
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\System.Web.Http.Cors.dll
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\System.Web.Http.Cors.xml
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Debug\OnLineSparess.Migrations.UserAdded.resources
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\System.IdentityModel.Tokens.Jwt.xml
