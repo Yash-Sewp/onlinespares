@@ -1,0 +1,62 @@
+<mat-card>
+	<span>Create new post</span>
+
+	<form [formGroup]="sellerForm" class="" (ngSubmit)="onSubmit()">
+		<div layout="row" layout-sm="column">
+			<div flex="none">
+				<mat-form-field>
+					<input matInput placeholder="Name" formControlName="firstName">
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput placeholder="Surname" formControlName="surname">
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput placeholder="Email address" formControlName="emailAddress">
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput placeholder="Cell number" formControlName="cellNumber">
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput placeholder="Location" formControlName="location">
+				</mat-form-field>
+				<br />
+			</div>
+			<div flex="none">
+				<!-- Item Info  -->
+				<mat-form-field>
+					<input matInput placeholder="Title" formControlName="title">
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput placeholder="Make" formControlName="make">
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput placeholder="Model" formControlName="model">
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput placeholder="Part number" formControlName="partNumber">
+				</mat-form-field>
+				<br />
+				<mat-form-field>
+					<input matInput placeholder="Description" formControlName="description">
+				</mat-form-field>
+				<br />
+				<!-- Item Images  -->
+				<mat-form-field>
+					<ngx-mat-file-input formControlName="multiplefile" placeholder="Multiple inputs" multiple></ngx-mat-file-input>
+					<mat-icon matSuffix>folder</mat-icon>
+				</mat-form-field>
+			</div>
+
+		</div>
+
+		<br />
+		<button mat-raised-button [disabled]="!sellerForm.valid">Create</button>
+	</form>
+</mat-card>

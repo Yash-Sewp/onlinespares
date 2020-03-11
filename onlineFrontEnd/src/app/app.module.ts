@@ -25,9 +25,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatInputModule, MatCardModule, MatSelectModule,
 	MatTableModule, MatToolbarModule, MatDialogModule, MatListModule, MatSortModule, MatPaginatorModule,
 	MatIconModule } from '@angular/material';
+import { MaterialFileInputModule } from 'ngx-material-file-input';
 
 // Form
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { ItemsComponent } from './items/items.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { SingleItemComponent } from './single-item/single-item.component';
+
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+
+import * as $ from 'jquery';
+import { CreateItemComponent } from './create-item/create-item.component';
 
 @NgModule({
 	declarations: [
@@ -39,7 +48,11 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 		UpdateEntryComponent,
 		DeleteEntryComponent,
 		RegisterComponent,
-		LoginComponent
+		LoginComponent,
+		ItemsComponent,
+		LandingPageComponent,
+		SingleItemComponent,
+		CreateItemComponent
 	],
 	imports: [
 		BrowserModule,
@@ -47,6 +60,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 		AppRouterModule,
 		ReactiveFormsModule,
 		FormsModule,
+		SlickCarouselModule,
 
 		// Material Design
 		BrowserAnimationsModule,
@@ -60,7 +74,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 		MatListModule,
 		MatSortModule,
 		MatPaginatorModule,
-		MatIconModule
+		MatIconModule,
+		MaterialFileInputModule
 	],
 	entryComponents: [UpdateEntryComponent],
 	providers: [EntryService, AuthService],

@@ -3,3 +3,8 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.slick-track {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
