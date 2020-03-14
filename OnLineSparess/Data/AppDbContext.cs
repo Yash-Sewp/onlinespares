@@ -15,6 +15,7 @@ namespace OnLineSparess.Data
         }
         public  DbSet<Entry> Entries { get; set; }
         public  DbSet<User> Users { get; set; }
+        public  DbSet<Seller> Sellers { get; set; }
 
     }
 }

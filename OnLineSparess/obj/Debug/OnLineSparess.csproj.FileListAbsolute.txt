@@ -98,3 +98,6 @@ C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microso
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.Logging.xml
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.Tokens.xml
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Debug\OnLineSparess.Migrations.Initial1.resources
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Debug\OnLineSparess.Migrations.Initial2.resources
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Debug\OnLineSparess.Migrations.Initial3.resources
