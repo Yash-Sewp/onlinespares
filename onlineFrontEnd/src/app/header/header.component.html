@@ -1,5 +1,5 @@
 <mat-toolbar color="primary">
-	<button mat-button routerLink="/">App</button>
+	<button mat-button routerLink="/">OnlineSpares</button>
 	<!-- <button mat-button routerLink="/entries">Entries</button> -->
 	<!-- <button mat-button routerLink="/new-entry">Create entry</button> -->
 	<span style="flex: 1 1 auto"></span>
@@ -9,4 +9,12 @@
 	<button mat-button *ngIf="!auth.isAuthenticated" routerLink="/login">Login</button>
 	<button mat-button *ngIf="auth.isAuthenticated" routerLink="/create-post">CREATE POST</button>
 	<button mat-button *ngIf="!auth.isAuthenticated" routerLink="/login">CREATE POST</button>
+</mat-toolbar>
+<mat-toolbar color="primary">
+	<form class="search-form">
+		<mat-form-field class="search-box">
+		  <mat-label>Search</mat-label>
+		  <input matInput placeholder="Seach">
+		</mat-form-field>
+	  </form>
 </mat-toolbar>

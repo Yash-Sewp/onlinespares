@@ -24,7 +24,7 @@ export class SellerService {
 	}
 
 	updateSeller(id, seller) {
-		return this.http.put(this.baseUrl + '/api/entries' + id, seller);
+		return this.http.put(this.baseUrl + '/api/sellers' + id, seller);
 	}
 
 	deleteSeller(id) {
