@@ -37,6 +37,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 import * as $ from 'jquery';
 import { CreateItemComponent } from './create-item/create-item.component';
+import { ItemListingComponent } from './item-listing/item-listing.component';
 
 @NgModule({
 	declarations: [
@@ -52,7 +53,8 @@ import { CreateItemComponent } from './create-item/create-item.component';
 		ItemsComponent,
 		LandingPageComponent,
 		SingleItemComponent,
-		CreateItemComponent
+		CreateItemComponent,
+		ItemListingComponent
 	],
 	imports: [
 		BrowserModule,

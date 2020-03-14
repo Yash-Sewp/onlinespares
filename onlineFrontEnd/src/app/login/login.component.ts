@@ -22,7 +22,7 @@ export class LoginComponent {
 		  console.log(data);
 		  localStorage.setItem('userName', data.UserName);
 		  localStorage.setItem('token_value', data.Token);
-		  this.router.navigate(['/entries']);
+		  this.router.navigate(['/create-post']);
 	  },
 	  (error) => alert(error.error.Message));
   }

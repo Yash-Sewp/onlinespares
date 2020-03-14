@@ -11,14 +11,7 @@ import * as $ from 'jquery';
 })
 export class ItemsComponent implements OnInit {
 
-	dataSource;
-
-	slides = [
-		{ img: 'http://placehold.it/350x150/000000' },
-		{ img: 'http://placehold.it/350x150/111111' },
-		{ img: 'http://placehold.it/350x150/333333' },
-		{ img: 'http://placehold.it/350x150/666666' }
-	];
+	dataSource: any;
 
 	slideConfig = {
 		'slidesToShow': 4,
@@ -33,8 +26,6 @@ export class ItemsComponent implements OnInit {
 				}
 			]
 	};
-
-
 
 	constructor(private service: SellerService) { }
 

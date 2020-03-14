@@ -12,7 +12,7 @@ import { UpdateEntryComponent } from '../update-entry/update-entry.component';
 export class EntriesComponent implements OnInit {
 
 	displayedColumns: string[] = ['Description', 'IsExpense', 'Value', 'Actions'];
-	dataSource;
+	dataSource: any;
 
 	@ViewChild(MatSort, {static: false}) sort: MatSort;
 	@ViewChild(MatPaginator, {static: false}) paginator: MatPaginator;

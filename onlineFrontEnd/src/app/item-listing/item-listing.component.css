@@ -1,0 +1,17 @@
+.list-container {
+	max-height: 100%;
+}
+
+mat-card {
+	display: flex;
+    margin: 20px 0px;
+}
+
+.left {
+	width: 30%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}

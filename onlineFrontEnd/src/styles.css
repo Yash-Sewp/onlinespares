@@ -8,3 +8,35 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+.mat-table {
+    width: 100%;
+}
+
+table.item-listing {
+	width: 100%;
+}
+
+table img {
+	width: 100%;
+	max-width: 250px;
+}
+
+@media (min-width: 1200px) {
+	table img {
+		min-width: 300px;
+	}
+	.cdk-column-Img {
+		width: 40%;
+	}
+
+	.cdk-column-Content {
+		width: 60%;
+	}
+
+	.mat-row {
+		margin: 15px 0px;
+	}
+
+
+}
