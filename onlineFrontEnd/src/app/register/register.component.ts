@@ -5,7 +5,7 @@ import { AuthService } from '../auth.service';
 @Component({
 	selector: 'app-register',
 	templateUrl: './register.component.html',
-	styleUrls: ['./register.component.css']
+	styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent {
 
@@ -17,7 +17,7 @@ export class RegisterComponent {
 			password: ['', Validators.required],
 			confirmPassword: ['', Validators.required]
 			// Compare password and confirmpassword
-		}, { validator: matchingFields('password', 'confirmPassword') })
+		}, { validator: matchingFields('password', 'confirmPassword') });
 	}
 
 	onSubmit() {
@@ -27,6 +27,8 @@ export class RegisterComponent {
 			localStorage.setItem('userName', data.UserName);
 			localStorage.setItem('token_value', data.Token);
 		});
+
+		// Lzk#$Tck-2repG6u
 	}
 }
 
@@ -35,7 +37,7 @@ function matchingFields(field1, field2) {
 		if (form.controls[field1].value !== form.controls[field2].value) {
 			return { matchingFields: true };
 		}
-	}
+	};
 }
 
 // Access the entire form object

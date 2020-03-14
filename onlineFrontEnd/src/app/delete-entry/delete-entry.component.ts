@@ -5,7 +5,7 @@ import { EntryService } from '../entry.service';
 @Component({
 	selector: 'app-delete-entry',
 	templateUrl: './delete-entry.component.html',
-	styleUrls: ['./delete-entry.component.css']
+	styleUrls: ['./delete-entry.component.scss']
 })
 export class DeleteEntryComponent implements OnInit {
 

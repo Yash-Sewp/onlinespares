@@ -6,7 +6,7 @@ import { SellerElement } from '../interfaces/SellerElements';
 @Component({
 	selector: 'app-item-listing',
 	templateUrl: './item-listing.component.html',
-	styleUrls: ['./item-listing.component.css']
+	styleUrls: ['./item-listing.component.scss']
 })
 export class ItemListingComponent implements OnInit {
 

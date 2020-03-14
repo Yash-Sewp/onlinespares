@@ -6,7 +6,7 @@ import { EntryService } from '../entry.service';
 @Component({
 	selector: 'app-new-entry',
 	templateUrl: './new-entry.component.html',
-	styleUrls: ['./new-entry.component.css']
+	styleUrls: ['./new-entry.component.scss']
 })
 export class NewEntryComponent {
 

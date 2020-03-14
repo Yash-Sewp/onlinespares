@@ -7,7 +7,7 @@ import { UpdateEntryComponent } from '../update-entry/update-entry.component';
 @Component({
 	selector: 'app-entries',
 	templateUrl: './entries.component.html',
-	styleUrls: ['./entries.component.css']
+	styleUrls: ['./entries.component.scss']
 })
 export class EntriesComponent implements OnInit {
 

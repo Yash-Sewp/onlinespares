@@ -5,7 +5,7 @@ import { SellerService } from '../seller.service';
 @Component({
 	selector: 'app-create-item',
 	templateUrl: './create-item.component.html',
-	styleUrls: ['./create-item.component.css']
+	styleUrls: ['./create-item.component.scss']
 })
 export class CreateItemComponent {
 

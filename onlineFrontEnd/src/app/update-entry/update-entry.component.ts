@@ -7,7 +7,7 @@ import { EntryService } from '../entry.service';
 @Component({
 	selector: 'app-update-entry',
 	templateUrl: './update-entry.component.html',
-	styleUrls: ['./update-entry.component.css']
+	styleUrls: ['./update-entry.component.scss']
 })
 export class UpdateEntryComponent implements OnInit {
 
@@ -37,7 +37,7 @@ export class UpdateEntryComponent implements OnInit {
 	save() {
 		this.form.value.id = this.id;
 		this.service.updateEntry(this.id, this.form.value).subscribe((data) => {
-			console.log('Data: ', data)
+			console.log('Data: ', data);
 		});
 	}
 
