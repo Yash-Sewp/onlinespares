@@ -147,5 +147,29 @@ namespace OnLineSparess.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet]
+        [Route("api/sellers/search/{search}")]
+        public IHttpActionResult SearchSeller(string search)
+        {
+            try
+            {
+                using (var context = new AppDbContext())
+                {
+                    var seller = context.Sellers.Where(c => c.Title.Contains(search) ||
+                    c.EmailAddress.Contains(search) || c.Location.Contains(search) ||
+                    c.FirstName.Contains(search) || c.LastName.Contains(search) ||
+                    c.Make.Contains(search) || c.Model.Contains(search) || c.Description.Contains(search))
+                    .ToList();
+                    if (seller == null) return NotFound();
+                    return Ok(seller);
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
     }
 }

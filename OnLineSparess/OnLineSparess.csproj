@@ -208,6 +208,10 @@
     <Compile Include="Migrations\202003141204232_Initial3.Designer.cs">
       <DependentUpon>202003141204232_Initial3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003150141144_Initial4.cs" />
+    <Compile Include="Migrations\202003150141144_Initial4.Designer.cs">
+      <DependentUpon>202003150141144_Initial4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entry.cs" />
     <Compile Include="Models\Seller.cs" />
@@ -270,6 +274,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -315,6 +320,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003141204232_Initial3.resx">
       <DependentUpon>202003141204232_Initial3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003150141144_Initial4.resx">
+      <DependentUpon>202003150141144_Initial4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

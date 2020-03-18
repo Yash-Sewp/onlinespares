@@ -89,3 +89,16 @@ C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Release
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Release\OnLineSparess.csproj.CopyComplete
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Release\OnLineSparess.dll
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Release\OnLineSparess.pdb
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Release\OnLineSparess.Migrations.UserAdded.resources
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Release\OnLineSparess.Migrations.Initial1.resources
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Release\OnLineSparess.Migrations.Initial2.resources
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Release\OnLineSparess.Migrations.Initial3.resources
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Release\OnLineSparess.Migrations.Initial4.resources

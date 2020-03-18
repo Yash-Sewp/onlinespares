@@ -24,7 +24,7 @@ namespace OnLineSparess.Models
         public string Model { get; set; }
         public string PartNumber { get; set; }
         public string Description { get; set; }
-        public string Price { get; set; }
+        public int Price { get; set; }
 
         public string ImageOne { get; set; }
         public string ImageTwo { get; set; }

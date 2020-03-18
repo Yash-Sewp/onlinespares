@@ -88,6 +88,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/24/2018 22:38:22</publishTime>
     </File>
+    <File Include="bin/Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>03/10/2020 15:38:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>03/10/2020 15:38:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>03/10/2020 15:38:04</publishTime>
+    </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/25/2012 20:48:56</publishTime>
     </File>
@@ -95,10 +104,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/18/2018 18:44:54</publishTime>
     </File>
     <File Include="bin/OnLineSparess.dll">
-      <publishTime>03/06/2020 15:42:56</publishTime>
+      <publishTime>03/16/2020 16:01:54</publishTime>
     </File>
     <File Include="bin/OnLineSparess.pdb">
-      <publishTime>03/06/2020 15:42:56</publishTime>
+      <publishTime>03/16/2020 16:01:54</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>05/24/2018 22:38:22</publishTime>
@@ -237,6 +246,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
       <publishTime>05/24/2018 22:38:24</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>03/10/2020 15:38:04</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>11/28/2018 13:00:36</publishTime>
