@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class SellerService {
 
-	baseUrl = 'http://localhost:50404';
+	baseUrl = 'http://test15200.somee.com';
 
 	constructor(private http: HttpClient) { }
 
@@ -16,7 +16,6 @@ export class SellerService {
 
 	getAllItem() {
 		return this.http.get(this.baseUrl + '/api/sellers');
-		console.log('---------', this);
 	}
 
 	createSeller(seller) {
@@ -29,5 +28,9 @@ export class SellerService {
 
 	deleteSeller(id) {
 		return this.http.delete(this.baseUrl + '/api/sellers' + id);
+	}
+
+	searchSeller(search) {
+		return this.http.get(this.baseUrl + '/api/sellers/search/' + search);
 	}
 }

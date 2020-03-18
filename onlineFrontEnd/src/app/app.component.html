@@ -1,5 +1,11 @@
 <app-header></app-header>
-<div class="container">
+<!-- Search Container / Outside root -->
+<div class="search container">
+	<app-search-results (animateEvent)="showSearch($event)"></app-search-results>
+</div>
+
+<div  [@openClose]="isOpen ? 'open' : 'closed'" class="container">
 	<router-outlet></router-outlet>
 </div>
+
 <app-footer></app-footer>

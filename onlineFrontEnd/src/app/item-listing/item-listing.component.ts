@@ -23,9 +23,7 @@ export class ItemListingComponent implements OnInit {
 
 	ngOnInit() {
 		this.service.getAllItem().subscribe((data) => {
-			console.log('item listing', data);
 			this.dataSource = data;
-
 			this.dataSource = new MatTableDataSource<SellerElement>(data as SellerElement[]);
 			this.dataSource.paginator = this.paginator;
 		});

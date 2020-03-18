@@ -37,7 +37,7 @@ export class UpdateEntryComponent implements OnInit {
 	save() {
 		this.form.value.id = this.id;
 		this.service.updateEntry(this.id, this.form.value).subscribe((data) => {
-			console.log('Data: ', data);
+			// To do something
 		});
 	}
 

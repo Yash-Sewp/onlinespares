@@ -11,6 +11,7 @@ import { ItemsComponent } from './items/items.component';
 import { SingleItemComponent } from './single-item/single-item.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CreateItemComponent } from './create-item/create-item.component';
+import { SearchResultsComponent } from './search-results/search-results.component';
 
 
 import { NgModule } from '@angular/core';
@@ -26,7 +27,8 @@ const routes: Routes = [
 	{ path: 'delete-entry/:id', component: DeleteEntryComponent },
 	{ path: 'register', component: RegisterComponent },
 	{ path: 'login', component: LoginComponent },
-	{ path: ':id', component: SingleItemComponent  }
+	{ path: ':id', component: SingleItemComponent  },
+	{ path: 'search', component: SearchResultsComponent }
 
 ];
 

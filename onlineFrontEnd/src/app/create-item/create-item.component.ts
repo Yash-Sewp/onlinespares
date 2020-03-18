@@ -26,9 +26,8 @@ export class CreateItemComponent {
 	});
 
 	onSubmit() {
-		console.log('Item data', this.sellerForm.value);
 		this.service.createSeller(this.sellerForm.value).subscribe((data) => {
-			console.log('Item data', data);
+			// To do something
 		});
 	}
 

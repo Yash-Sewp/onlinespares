@@ -24,9 +24,8 @@ export class NewEntryComponent {
 	});
 
 	onSubmit() {
-		console.log(this.entryForm.value);
 		this.service.createEntry(this.entryForm.value).subscribe((data) => {
-			console.log('Data - ', data);
+			// To do something
 		});
 	}
 

@@ -4,6 +4,26 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+
+.latest-post-slider {
+	a {
+		color: #000000;
+		text-decoration: none;
+	}
+	.mat-card-header-text {
+		margin: 10px 0px;
+	}
+	&__location {
+		color: green;
+		margin-bottom: 10px;
+	}
+	&__price {
+		font-size: 24px;
+		color: #464646;
+	}
+}
+
+
 .slick-track {
 	margin-top: 30px;
 	margin-bottom: 30px;

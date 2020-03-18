@@ -31,13 +31,11 @@ export class ItemsComponent implements OnInit {
 
 	ngOnInit() {
 		this.service.getAllItem().subscribe((data) => {
-			console.log('All seller Items', data);
 			this.dataSource = data;
 		});
 	}
 
 	slickInit(e) {
-		console.log('slick initialized');
 	}
 
 }

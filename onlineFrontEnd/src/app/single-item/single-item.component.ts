@@ -37,7 +37,6 @@ export class SingleItemComponent implements OnInit {
   ngOnInit() {
 	this.id = this.route.snapshot.paramMap.get('id');
 	this.service.getSeller(this.id).subscribe((data: any) => {
-		console.log('Data ', data);
 		this.seller.FirstName = data.FirstName;
 		this.seller.LastName = data.LastName;
 		this.seller.EmailAddress = data.EmailAddress;

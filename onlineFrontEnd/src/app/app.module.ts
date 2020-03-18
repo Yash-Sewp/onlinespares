@@ -15,6 +15,9 @@ import { UpdateEntryComponent } from './update-entry/update-entry.component';
 import { DeleteEntryComponent } from './delete-entry/delete-entry.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { CreateItemComponent } from './create-item/create-item.component';
+import { ItemListingComponent } from './item-listing/item-listing.component';
+import { SearchResultsComponent } from './search-results/search-results.component';
 
 // services
 import { EntryService } from './entry.service';
@@ -36,8 +39,7 @@ import { SingleItemComponent } from './single-item/single-item.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 import * as $ from 'jquery';
-import { CreateItemComponent } from './create-item/create-item.component';
-import { ItemListingComponent } from './item-listing/item-listing.component';
+
 
 @NgModule({
 	declarations: [
@@ -54,7 +56,8 @@ import { ItemListingComponent } from './item-listing/item-listing.component';
 		LandingPageComponent,
 		SingleItemComponent,
 		CreateItemComponent,
-		ItemListingComponent
+		ItemListingComponent,
+		SearchResultsComponent
 	],
 	imports: [
 		BrowserModule,

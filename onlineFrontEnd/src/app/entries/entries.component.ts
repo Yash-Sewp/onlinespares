@@ -21,7 +21,6 @@ export class EntriesComponent implements OnInit {
 
 	ngOnInit() {
 		this.service.getAll().subscribe((data) => {
-			console.log('Result ', data);
 			// Data is an Array of EntryElements
 			this.dataSource = new MatTableDataSource<EntryElement>(data as EntryElement[]);
 			this.dataSource.paginator = this.paginator;
@@ -33,7 +32,6 @@ export class EntriesComponent implements OnInit {
 	}
 
 	updateEntry(entry) {
-		console.log(entry);
 		this.dialog.open(UpdateEntryComponent, {
 			data: {
 				Id: entry.Id,

@@ -23,7 +23,6 @@ export class DeleteEntryComponent implements OnInit {
 	ngOnInit() {
 		this.id = this.route.snapshot.paramMap.get('id');
 		this.service.getEntry(this.id).subscribe((data: any) => {
-			console.log('Data ', data);
 			this.entry.description = data.Description;
 			this.entry.isExpense = data.IsExpense;
 			this.entry.value = data.Value;
@@ -36,7 +35,7 @@ export class DeleteEntryComponent implements OnInit {
 
 	confirm() {
 		this.service.deleteEntry(this.id).subscribe((data) => {
-			console.log(data);
+			// To do something
 		});
 	}
 
