@@ -102,3 +102,5 @@ C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Debug\O
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Debug\OnLineSparess.Migrations.Initial2.resources
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Debug\OnLineSparess.Migrations.Initial3.resources
 C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Debug\OnLineSparess.Migrations.Initial4.resources
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Debug\OnLineSparess.Migrations.Initial5.resources
+C:\Users\yashveer\Desktop\2018\CProjects\OnLineSparess\OnLineSparess\obj\Debug\OnLineSparess.Migrations.Initial6.resources

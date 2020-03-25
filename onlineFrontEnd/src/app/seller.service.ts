@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class SellerService {
 
-	baseUrl = 'http://test15200.somee.com';
+	baseUrl = 'http://localhost:50404';
 
 	constructor(private http: HttpClient) { }
 

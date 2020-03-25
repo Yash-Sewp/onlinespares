@@ -183,6 +183,7 @@
     <Compile Include="Controllers\EntriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SellersController.cs" />
+    <Compile Include="Controllers\UserVerificationController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Data\AppDbContext.cs" />
     <Compile Include="Global.asax.cs">
@@ -212,10 +213,19 @@
     <Compile Include="Migrations\202003150141144_Initial4.Designer.cs">
       <DependentUpon>202003150141144_Initial4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003180820130_Initial5.cs" />
+    <Compile Include="Migrations\202003180820130_Initial5.Designer.cs">
+      <DependentUpon>202003180820130_Initial5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003180850172_Initial6.cs" />
+    <Compile Include="Migrations\202003180850172_Initial6.Designer.cs">
+      <DependentUpon>202003180850172_Initial6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entry.cs" />
     <Compile Include="Models\Seller.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserActivation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -323,6 +333,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003150141144_Initial4.resx">
       <DependentUpon>202003150141144_Initial4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003180820130_Initial5.resx">
+      <DependentUpon>202003180820130_Initial5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003180850172_Initial6.resx">
+      <DependentUpon>202003180850172_Initial6.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

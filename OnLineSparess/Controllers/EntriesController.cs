@@ -15,6 +15,7 @@ namespace OnLineSparess.Controllers
     {
 
         // Get single Entry
+        [Route("getone/{id}")]
         [HttpGet]
         public IHttpActionResult GetEntry(int id)
         {
@@ -35,6 +36,7 @@ namespace OnLineSparess.Controllers
         }
 
         // Get All Entries
+        [Route("getentries")]
         [HttpGet]
         public IHttpActionResult GetEntries()
         {

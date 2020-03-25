@@ -13,8 +13,10 @@ namespace OnLineSparess.Data
         public AppDbContext() : base("name=onlinespares")
         {
         }
+
         public  DbSet<Entry> Entries { get; set; }
         public  DbSet<User> Users { get; set; }
+        public  DbSet<UserActivation> UserActivations { get; set; }
         public  DbSet<Seller> Sellers { get; set; }
 
     }

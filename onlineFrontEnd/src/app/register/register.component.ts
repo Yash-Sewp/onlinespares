@@ -14,6 +14,7 @@ export class RegisterComponent {
 	constructor(private fb: FormBuilder, private service: AuthService) {
 		this.registerForm = fb.group({
 			userName: ['', Validators.required],
+			emailAddress: ['', Validators.required],
 			password: ['', Validators.required],
 			confirmPassword: ['', Validators.required]
 			// Compare password and confirmpassword

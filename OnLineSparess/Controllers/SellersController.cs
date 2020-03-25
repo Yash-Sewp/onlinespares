@@ -95,7 +95,6 @@ namespace OnLineSparess.Controllers
 
                     oldSeller.FirstName = seller.FirstName;
                     oldSeller.LastName = seller.LastName;
-                    oldSeller.EmailAddress = seller.EmailAddress;
                     oldSeller.CellNumber = seller.CellNumber;
                     oldSeller.Location = seller.Location;
 
@@ -157,8 +156,7 @@ namespace OnLineSparess.Controllers
                 using (var context = new AppDbContext())
                 {
                     var seller = context.Sellers.Where(c => c.Title.Contains(search) ||
-                    c.EmailAddress.Contains(search) || c.Location.Contains(search) ||
-                    c.FirstName.Contains(search) || c.LastName.Contains(search) ||
+                    c.Location.Contains(search) || c.FirstName.Contains(search) || c.LastName.Contains(search) ||
                     c.Make.Contains(search) || c.Model.Contains(search) || c.Description.Contains(search))
                     .ToList();
                     if (seller == null) return NotFound();

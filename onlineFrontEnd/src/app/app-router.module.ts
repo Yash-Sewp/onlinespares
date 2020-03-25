@@ -12,7 +12,8 @@ import { SingleItemComponent } from './single-item/single-item.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CreateItemComponent } from './create-item/create-item.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
-
+import {VerifyComponent } from './verify/verify.component';
+import { ActivateComponent } from './activate/activate.component';
 
 import { NgModule } from '@angular/core';
 
@@ -21,12 +22,17 @@ import { NgModule } from '@angular/core';
 const routes: Routes = [
 	{ path: '', component: LandingPageComponent },
 	{ path: 'home', component: LandingPageComponent },
+
+
+	{ path: 'register', component: RegisterComponent },
+	{ path: 'login', component: LoginComponent },
+	{ path: 'verifyaccount', component: VerifyComponent },
+	{ path: '', component: ActivateComponent },
 	{ path: 'entries', component: EntriesComponent },
 	{ path: 'new-entry', component: NewEntryComponent },
 	{ path: 'create-post', component: CreateItemComponent },
 	{ path: 'delete-entry/:id', component: DeleteEntryComponent },
-	{ path: 'register', component: RegisterComponent },
-	{ path: 'login', component: LoginComponent },
+
 	{ path: ':id', component: SingleItemComponent  },
 	{ path: 'search', component: SearchResultsComponent }
 

@@ -3,9 +3,9 @@ import { AuthService } from '../auth.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss']
+	selector: 'app-login',
+	templateUrl: './login.component.html',
+	styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
 
@@ -14,17 +14,24 @@ export class LoginComponent {
 		userName: '',
 		password: ''
 	};
+	// check: any;
 
-  constructor(private service: AuthService, private router: Router) { }
+	constructor(private service: AuthService, private router: Router) { }
 
-  login() {
-	  this.service.login(this.loginData).subscribe((data: any) => {
-		  localStorage.setItem('userName', data.UserName);
-		  localStorage.setItem('token_value', data.Token);
-		  this.router.navigate(['/create-post']);
-	  },
-	  (error) => alert(error.error.Message));
-  }
+	login() {
+		this.service.login(this.loginData).subscribe((data: any) => {
+			if (data.ActivationCode != null) {
+				// sessionStorage.setItem('activationcode', data.ActivationCode);
+				this.router.navigate(['/verifyaccount']);
+			} else {
+				localStorage.setItem('userName', data.UserName);
+				localStorage.setItem('token_value', data.Token);
+			}
+
+			//   this.router.navigate(['/create-post']);
+		},
+			(error) => alert(error.error.Message));
+	}
 
 
 }

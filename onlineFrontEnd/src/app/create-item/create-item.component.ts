@@ -14,7 +14,6 @@ export class CreateItemComponent {
 	sellerForm = new FormGroup({
 		firstName: new FormControl('', Validators.required),
 		surname: new FormControl('', Validators.required),
-		emailAddress: new FormControl('', Validators.required),
 		cellNumber: new FormControl('', [Validators.required, Validators.pattern('\\d+\\.?\\d*')]),
 		location: new FormControl('', Validators.required),
 		title: new FormControl('', Validators.required),

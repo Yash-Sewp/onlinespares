@@ -14,7 +14,6 @@ namespace OnLineSparess.Models
         // Persons personal info
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string EmailAddress { get; set; }
         public int CellNumber { get; set; }
         public string Location { get; set; }
 

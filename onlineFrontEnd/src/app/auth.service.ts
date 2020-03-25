@@ -9,7 +9,9 @@ import { Router } from '@angular/router';
 export class AuthService {
 
 	baseUrl = 'http://localhost:50404/auth/';
-
+	check: any;
+	// http://test15200.somee.com/
+	// http://localhost:50404
 	constructor(private http: HttpClient, private router: Router) { }
 
 	register(user) {
@@ -32,5 +34,9 @@ export class AuthService {
 
 	get isAuthenticated() {
 		return !!localStorage.getItem('token_value');
+	}
+
+	get activationCode() {
+		return sessionStorage.getItem('activationcode');
 	}
 }

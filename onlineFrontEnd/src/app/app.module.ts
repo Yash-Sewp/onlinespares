@@ -39,6 +39,8 @@ import { SingleItemComponent } from './single-item/single-item.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 import * as $ from 'jquery';
+import { VerifyComponent } from './verify/verify.component';
+import { ActivateComponent } from './activate/activate.component';
 
 
 @NgModule({
@@ -57,7 +59,9 @@ import * as $ from 'jquery';
 		SingleItemComponent,
 		CreateItemComponent,
 		ItemListingComponent,
-		SearchResultsComponent
+		SearchResultsComponent,
+		VerifyComponent,
+		ActivateComponent
 	],
 	imports: [
 		BrowserModule,
